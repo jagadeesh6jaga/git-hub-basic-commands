@@ -11,5 +11,88 @@ git push
 git merge
 git fetch
 
-git init ---> it is used to create repository or re-initiate existing repo 
+git init:
+---------
+--> git init 
+ it is used to create repository or re-initiate existing repo 
 (make dir as git dir )
+
+
+
+to unstage any file 
+--------------------
+
+-->git rm --catched <filename>
+
+to unstage all files at a time:
+------------------------------
+
+--> git rm --catched *
+
+
+
+
+
+
+
+general process :
+---------------
+
+git status .
+
+add files / new files create .
+
+git add <filename>
+
+to add all files at a time ====>    git add --a 
+
+git commit -m 'commit-msg'
+
+git pull
+
+git remote add <repo-url>  ===>first time only .
+
+ex for first time : git remote add origin https://github.com/jagadeesh6jaga/gittest.git
+
+
+git push origin master  or git push origin HEAD:main
+
+
+
+
+commit :
+--------------
+
+
+git commit -m ' commit-msg'
+
+Note :Git local repository will be available in our machine only .
+
+Note  : when we execute commit command it will consider all the files which are in staging area .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
