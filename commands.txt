@@ -29,7 +29,7 @@ to unstage all files at a time:
 
 --> git rm --catched *
 
-
+# this is for new created files
 
 
 
@@ -73,12 +73,18 @@ Note  : when we execute commit command it will consider all the files which are 
 
 
 
+restore :
+---------
+
+git restore --staged <filename>
+
+# this is for modified  files .
 
 
 
 
-
-
+checkout :
+------------
 
 
 
