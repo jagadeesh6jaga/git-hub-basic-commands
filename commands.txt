@@ -1,0 +1,15 @@
+#common camands in git 
+
+git clone
+git checkout
+git branch
+git status
+git  add
+git commit
+git pull
+git push
+git merge
+git fetch
+
+git init ---> it is used to create repository or re-initiate existing repo 
+(make dir as git dir )
