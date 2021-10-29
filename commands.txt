@@ -87,7 +87,7 @@ checkout :
 ------------
 
 
-
+git checkout <branch-name>  : this is used to change branch 
 
 
 
